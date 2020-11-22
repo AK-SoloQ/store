@@ -1,8 +1,8 @@
 const Promise = require('bluebird')
 const path = require('path')
 
-exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
+exports.createPages = ({graphql, actions}) => {
+  const {createPage} = actions
 
   return new Promise((resolve, reject) => {
     const productPageTemplate = path.resolve('src/templates/ProductPage.js')
