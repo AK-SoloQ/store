@@ -33,6 +33,7 @@ node_modules
 .cache/
 .DS_Store
 public
+package-lock.json
 
 cypress/videos
 cypress/screenshots
