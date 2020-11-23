@@ -11,7 +11,7 @@ import {
 } from 'semantic-ui-react'
 import styled from 'styled-components'
 import ShoppingCartIcon from './ShoppingCartIcon'
-import Logo from './Logo'
+import Logo from './Logo.png'
 
 const StyledLink = styled(Link)`
   font-weight: bold;
@@ -88,8 +88,8 @@ const MobileMenu = ({location: {pathname}, token, cartCount, signout}) => {
           header
           active={activeItem === withPrefix('/')}
         >
-          <Logo />
-          Store
+          <img src={Logo} alt="Logo" />
+          ABD Store
         </Menu.Item>
         <Menu.Menu position="right">
           <Menu.Item
